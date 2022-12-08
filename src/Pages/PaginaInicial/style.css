@@ -1,0 +1,51 @@
+.pagina-inicial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+
+}
+
+.pagina-inicial h1,p {
+    margin-top: 50px;
+    color: aliceblue;
+}
+
+.links {
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+    width: 100%;
+    margin-top: 10%;  
+}
+
+.pagina-inicial .numero-aleatorio, .pagina-inicial .trocar-cores {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    transition: transform, 0.3s;
+
+}
+
+.pagina-inicial .numero-aleatorio:hover , .pagina-inicial .trocar-cores:hover{
+
+    transform: scale(1.05);
+    border: 1px solid rgb(125, 248, 166);
+    opacity: 0.72;
+    
+
+}
+
+.pagina-inicial .numero-aleatorio {
+    background-color: aqua;
+}
+
+.pagina-inicial .trocar-cores {
+    background-color: chartreuse;
+}

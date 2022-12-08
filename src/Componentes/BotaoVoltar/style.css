@@ -1,0 +1,17 @@
+.botao-voltar {
+    display: flex;
+    padding: 7px 30px;
+    margin-top: 60px;
+    background-color: rgb(43, 128, 226);
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: transform, 0.3s;
+}
+
+.botao-voltar:hover {
+    transform: scale(1.04);
+    opacity: 0.85;
+}

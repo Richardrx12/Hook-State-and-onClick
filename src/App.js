@@ -1,10 +1,10 @@
 import './App.css';
-import PaginaInicial from './PaginaInicial';
+import Rotas from './Componentes/Rotas';
 
 function App() {
   return (
     <div className="App">
-      <PaginaInicial />
+      < Rotas />
         
     </div>
   );

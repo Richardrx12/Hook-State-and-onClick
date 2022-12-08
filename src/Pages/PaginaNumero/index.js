@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import BotaoVoltar from "../../Componentes/BotaoVoltar";
 // o Hook ( useState ) é utilizado para alterar automaticamente uma variavel na tela
 
 import './style.css'
 
-export default function PaginaInicial() {
+export default function PaginaNumAleatorio () {
+    
     //variavel de estado para interagir com a função de numeros aleatorios
     const [ numAleatorio, setNumAleatorio ] = useState(0);
 
@@ -22,8 +24,11 @@ export default function PaginaInicial() {
                 <label> Click no botão abaixo para gerar um número aleatório: </label>
    
                 <button onClick={ gerarNumero } className="botao"> Gerar número </button>
+                <BotaoVoltar />
             </div>
+            
 
         </div>
     );
 }
+
